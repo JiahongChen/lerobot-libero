@@ -56,8 +56,8 @@ Use the following command to run inference on a selected LIBERO task suite:
 
 ```bash
 python lerobot_inference.py \
-    --policy_path peeeeeter/lite_object_500k \
-    --task_suite_name [libero_object | libero_10 | libero_spatial | libero_goal | libero_90]
+    --policy_path peeeeeter/smolvla_spatial \
+    --task_suite_name [libero_spatial | libero_object | libero_goal | libero_10 | libero_90]
 ```
 
 Replace `--policy_path` with your desired pretrained policy and select an appropriate `--task_suite_name`.
