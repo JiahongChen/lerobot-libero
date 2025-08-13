@@ -1,8 +1,14 @@
 # LeRobot-LIBERO
 
-**Evaluate [LeRobot](https://github.com/huggingface/lerobot)-based models on the [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO) benchmark.**
+**Run and evaluate Hugging Face’s LeRobot policies on the LIBERO benchmark for lifelong robot learning.**
 
-This repository sets up the environment and provides an inference script to run LeRobot-based policies in LIBERO environments.
+LeRobot-LIBERO bridges [Hugging Face's LeRobot](https://github.com/huggingface/lerobot) and [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO), enabling evaluation of vision-language-actions (VLAs) models and imitation learning policies on standardized robotic manipulation tasks. This repository supports policy inference, reproducible evaluation, and integration with LIBERO's task suites.
+
+---
+
+![License](https://img.shields.io/github/license/JiahongChen/lerobot-libero)
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
 ---
 
@@ -84,3 +90,4 @@ Replace `--policy_path` with your desired pretrained policy and select an approp
 
 - [LeRobot](https://github.com/huggingface/lerobot): Hugging Face's large behavior model framework.
 - [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO): A benchmark suite for lifelong robot learning.
+
