@@ -18,6 +18,9 @@ python -m lerobot.libero.lerobot_inference \
 """
 
 from __future__ import annotations
+import os
+
+os.environ["MUJOCO_GL"] = "glfw"
 
 import dataclasses
 import logging
@@ -322,4 +325,5 @@ def run_libero_inference() -> float:
 
 
 if __name__ == "__main__":
+
     run_libero_inference()
