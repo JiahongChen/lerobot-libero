@@ -8,7 +8,6 @@ conda create -y -n lerobot-libero python=3.10
 conda activate lerobot-libero
 git clone https://github.com/huggingface/lerobot.git
 cd lerobot
-https://github.com/huggingface/lerobot.git
 conda install ffmpeg -c conda-forge
 pip install -e .
 pip install -e ".[smolvla, pi0]"
@@ -30,6 +29,6 @@ pip install -r ./libero_requirements.txt
 
 Run inference
 ```
-python -m lerobot.libero.lerobot_inference --policy_path=peeeeeter/lite_object_500k --task_suite_name=[libero_object|libero_10|libero_spatial|libero_goal|libero_90]
+python lerobot_inference.py --policy_path=peeeeeter/lite_object_500k --task_suite_name=[libero_object|libero_10|libero_spatial|libero_goal|libero_90]
 ```
 
